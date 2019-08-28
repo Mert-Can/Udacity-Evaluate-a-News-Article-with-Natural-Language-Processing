@@ -42,10 +42,13 @@ The project has the following file structure
 The project can be run in both development and production mode.
 ### run in dev mode
 ` $ npm run build-dev`
+
 ` $ npm run start`
 
 This first command will start the webpack dev server at port 8080 and the second command will start a server at port 3000 
 which enables us to do a post to the api.
+
+**Note::** The web page can be accessed witht `localhost:8080`
 
 ### run in prod mode
 ` $ npm run build-prod`
@@ -53,6 +56,8 @@ which enables us to do a post to the api.
 ` $ npm run start`
 
 The first command generates the dist files. The second command starts the server at port 3000
+
+**Note::** The web page can be accessed with `localhost:3000`
 ## Configs
 
 The project contains a `package.json` file two webpack config files `webpack.config.dev.js` and `webpack.config.prod.js` for development and production respectfully.
