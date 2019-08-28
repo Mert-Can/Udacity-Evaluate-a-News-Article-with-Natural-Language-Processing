@@ -42,8 +42,10 @@ The project has the following file structure
 The project can be run in both development and production mode.
 ### run in dev mode
 ` $ npm run build-dev`
+` $ npm run start`
 
-This will start the webpack dev server at port 8080.
+This first command will start the webpack dev server at port 8080 and the second command will start a server at port 3000 
+which enables us to do a post to the api.
 
 ### run in prod mode
 ` $ npm run build-prod`
